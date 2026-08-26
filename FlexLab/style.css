@@ -206,5 +206,51 @@ body {
     align-items: center;
     color: #a0a5b1;
     font-size: 0.9rem;
+
+}
+
+.footer-nav {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer-nav a {
+
+    color: #a0a5b1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+
+.footer-nav a:hover {
+
+    color: #ff4500;
+
+}
+
+@media (max-width: 992px) {
+
+    .contact-section {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .contact-section {
+        padding: 40px 20px;
+    }
+    .contact-form {
+        padding: 25px 20px;
+    }
+    .main-footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
     
 }
