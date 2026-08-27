@@ -1,74 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="FlexLab: academia para quem busca força, movimento e evolução.">
+    <title>FlexLab | Sua evolução começa aqui</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <section class="contact-section">
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-    <article class="contact-info">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="FlexLab - página inicial">
+                <span class="brand-mark" aria-hidden="true">FL</span>
+                <span class="brand-name">Flex<span>Lab</span></span>
+            </a>
 
-        <span class="tagline">Fale Conosco</span>
-        <h2>Entre em <span>Contato</span></h2>
-        <p>Tem dúvidas ou quer agendar uma visita? Preencha o formulário ou visite nossa unidade. Estamos prontos para te atender.</p>
-        
-        <ul class="info-list">
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a class="nav-link active" href="#inicio">Início</a>
+                <a class="nav-link" href="#sobre">Sobre</a>
+                <a class="nav-link" href="#servicos">Planos</a>
+                <a class="nav-link" href="#contato">Contato</a>
+            </nav>
 
-            <li>
-                <strong>Endereço:</strong>
-                <span>Av. Principal, 1000 - Centro</span>
-            </li>
-            <li>
-                <strong>Telefone:</strong>
-                <span>(51) 99999-9999</span>
-            </li>
-            <li>
-                <strong>Atendimento:</strong>
-                <span>Seg - Sex: 06h às 22h | Sáb: 08h às 16h</span>
-            </li>
-        </ul>
+            <a class="header-button" href="#contato">Aula experimental</a>
+        </div>
+    </header>
 
-    </article>
+    <main id="conteudo">
+        <section class="hero" id="inicio">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow"><span></span> Treino inteligente. Resultado real.</p>
+                    <h1>Supere seus <strong>limites.</strong></h1>
+                    <p class="hero-description">
+                        Estrutura completa, acompanhamento profissional e uma comunidade que treina junto com você. Na
+                        FlexLab, cada treino aproxima você da sua melhor versão.
+                    </p>
 
-    <form class="contact-form" action="#" method="POST">
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#servicos">Conheça os planos</a>
+                        <a class="button button-secondary" href="#sobre">Descubra a FlexLab <span
+                                aria-hidden="true">→</span></a>
+                    </div>
 
-        <h3>Envie uma Mensagem</h3>
-        
-        <label for="name">Nome Completo</label>
-        <input type="text" id="name" name="name" required placeholder="Seu nome">
+                    <ul class="hero-features" aria-label="Diferenciais da FlexLab">
+                        <li><strong>6h–23h</strong><span>Todos os dias</span></li>
+                        <li><strong>20+</strong><span>Profissionais</span></li>
+                        <li><strong>1.2k</strong><span>Alunos ativos</span></li>
+                    </ul>
+                </div>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                <div class="hero-visual" aria-label="Destaques da academia FlexLab">
+                    <div class="visual-word" aria-hidden="true">FORÇA</div>
+                    <div class="training-card">
+                        <span class="card-number">01</span>
+                        <p>Seu próximo nível começa hoje.</p>
+                        <div class="progress-label">
+                            <span>Evolução</span>
+                            <strong>87%</strong>
+                        </div>
+                        <div class="progress-track"><span></span></div>
+                    </div>
+                    <div class="motivation-badge">
+                        <strong>+ energia</strong>
+                        <span>+ confiança</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <label for="phone">Telefone</label>
-        <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+        <section class="about-section" id="sobre">
+            <figure class="about-media">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"
+                    alt="Pessoa treinando na academia" loading="lazy">
+                <figcaption class="about-badge">
+                    <strong>10+</strong>
+                    <small>Anos de excelência</small>
+                </figcaption>
+            </figure>
 
-        <label for="message">Mensagem</label>
-        <textarea id="message" name="message" rows="4" required placeholder="Como podemos te ajudar?"></textarea>
+            <article class="about-content">
+                <p class="tagline">Sobre a nossa academia</p>
+                <h2>Transforme seu corpo e <span>sua mente</span></h2>
+                <p>Somos focados em alta performance, saúde e bem-estar. Oferecemos uma estrutura moderna,
+                    equipamentos de última geração e profissionais preparados para acompanhar sua evolução.</p>
+                <ul class="about-features">
+                    <li>Equipamentos modernos</li>
+                    <li>Treinadores certificados</li>
+                    <li>Planos personalizados</li>
+                    <li>Ambiente climatizado</li>
+                </ul>
+                <a href="#servicos" class="about-btn">Conheça nossos planos</a>
+            </article>
+        </section>
 
-        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+        <section id="servicos" class="servicos-container">
+            <div class="servicos-header">
+                <p class="tagline">Planos FlexLab</p>
+                <h2>Nossos <span>planos e modalidades</span></h2>
+                <p>Escolha o treino ideal para transformar seus resultados.</p>
+            </div>
 
-    </form>
+            <div class="cards-grid">
+                <article class="card featured-card">
+                    <div class="card-tag">Mais popular</div>
+                    <h3>Plano Black</h3>
+                    <p class="preco">R$ 119,90 <span>/mês</span></p>
+                    <ul class="beneficios">
+                        <li>✓ Acesso a todas as áreas</li>
+                        <li>✓ Musculação e aeróbico</li>
+                        <li>✓ Leve um acompanhante por mês</li>
+                        <li>✓ Cadeira de massagem</li>
+                    </ul>
+                    <a href="#contato" class="btn-card">Matricule-se</a>
+                </article>
 
-</section>
+                <article class="card">
+                    <h3>Plano Fit</h3>
+                    <p class="preco">R$ 89,90 <span>/mês</span></p>
+                    <ul class="beneficios">
+                        <li>✓ Área de musculação</li>
+                        <li>✓ Área de aeróbico</li>
+                        <li>✓ Sem taxa de cancelamento</li>
+                    </ul>
+                    <a href="#contato" class="btn-card">Matricule-se</a>
+                </article>
 
-<footer class="main-footer">
+                <article class="card">
+                    <h3>Aulas coletivas</h3>
+                    <p class="preco">R$ 69,90 <span>/mês</span></p>
+                    <ul class="beneficios">
+                        <li>✓ Crossfit e funcional</li>
+                        <li>✓ Pilates e alongamento</li>
+                        <li>✓ Spin e dança</li>
+                    </ul>
+                    <a href="#contato" class="btn-card">Matricule-se</a>
+                </article>
+            </div>
+        </section>
 
-    <p>&copy; 2026 Academia. Todos os direitos reservados.</p>
+        <section class="contact-section" id="contato">
+            <article class="contact-info">
+                <p class="tagline">Fale conosco</p>
+                <h2>Entre em <span>contato</span></h2>
+                <p>Tem dúvidas ou quer agendar uma visita? Preencha o formulário ou visite nossa unidade.</p>
+                <ul class="info-list">
+                    <li><strong>Endereço</strong><span>Av. Principal, 1000 — Centro</span></li>
+                    <li><strong>Telefone</strong><span>(51) 99999-9999</span></li>
+                    <li><strong>Atendimento</strong><span>Seg–Sex: 6h às 22h | Sáb: 8h às 16h</span></li>
+                </ul>
+            </article>
 
-    <nav class="footer-nav">
+            <form class="contact-form">
+                <h3>Envie uma mensagem</h3>
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" name="name" required placeholder="Seu nome">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Como podemos ajudar?"></textarea>
+                <button type="button" class="submit-btn">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
 
-        <a href="#">Privacidade</a>
-        <a href="#">Termos de Uso</a>
-        <a href="#">Redes Sociais</a>
-
-    </nav>
-    
-</footer>
-
+    <footer class="main-footer">
+        <p>&copy; 2026 FlexLab. Todos os direitos reservados.</p>
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Planos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </footer>
 </body>
+
 </html>
