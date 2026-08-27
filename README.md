@@ -18,7 +18,7 @@ O FlexLab foi criado como uma atividade prática de desenvolvimento colaborativo
 | Wesley Augustin | Gerente do Projeto | Header, menu, seção inicial, revisão dos Pull Requests e integração final | `Gerente` |
 | Gustavo Braz | Desenvolvedor | Seção Sobre e apresentação da academia | `Gustavo` |
 | Pedro Porzel | Desenvolvedor | Seção de serviços, planos e cards | `Pedro` |
-| Felipe Lorini | Desenvolvedor | Seção de contato, formulário e rodapé | `Gustavo-2` |
+| Gustavo Braz | Desenvolvedor | Seção de contato, formulário e rodapé | `Gustavo-2` |
 
 ## Funcionalidades
 
